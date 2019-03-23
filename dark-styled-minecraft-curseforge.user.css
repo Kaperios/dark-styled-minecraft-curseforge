@@ -1,3 +1,4 @@
+@-moz-document url-prefix("minecraft.curseforge.com/") {
 /* ==UserStyle==
 @name        Dark Styled Minecraft CurseForge
 @namespace   Kaperios
@@ -123,4 +124,6 @@ div.p-comment-wrapper.comment-user-anonymous::before {
 hr {
     height: 1px;
     border-color: #3a3a3a !important;
+}
+
 }
