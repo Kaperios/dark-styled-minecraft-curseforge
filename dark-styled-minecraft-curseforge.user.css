@@ -5,7 +5,7 @@
 @updateURL   https://raw.githubusercontent.com/Kaperios/dark-styled-minecraft-curseforge/blob/master/dark-styled-minecraft-curseforge.user.css
 @license     CC-BY-SA-4.0
 @author      Kaperios
-==UserStyle== */
+==/UserStyle== */
 @-moz-document domain("minecraft.curseforge.com/") {
 #site-main, div.container, section.primary-content, div.project-listing-header, li.project-list-item, div.name-wrapper, .content-container h4 a, .e-download-count, .e-update-date, .project-list-item .details .info.name a, .atf, body.body-project #site div#site-main #content .primary-content h3, body.body-project-filedetails .details-panel h4, body.body-project #site div#site-main #content .primary-content h3.overflow-tip, .project-list .project-list-item .details .info.name a, div.cf-sidebar-header h3, body.body-project #site div#site-main #content .primary-content p.e-update-date, body.body-project #site div#site-main #content .primary-content .project-description h2, .project-relations .details .info.name div.name-wrapper a, .project-relations .details .info.name .byline a, body.body-project #site div#site-main #content .primary-content .details-panel h4 {
     background-color: #1a1a1a !important;
