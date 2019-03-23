@@ -1,0 +1,126 @@
+/* ==UserStyle==
+@name        Dark Styled Minecraft CurseForge
+@namespace   Kaperios
+@version     1.0.2
+@homepageURL https://userstyles.org/styles/170181/dark-styled-minecraft-curseforge
+@updateURL   https://raw.githubusercontent.com/Kaperios/dark-styled-minecraft-curseforge/blob/master/dark-styled-minecraft-curseforge.user.css
+@license     CC-BY-SA-4.0
+@author      Kaperios
+==UserStyle== */
+#site-main, div.container, section.primary-content, div.project-listing-header, li.project-list-item, div.name-wrapper, .content-container h4 a, .e-download-count, .e-update-date, .project-list-item .details .info.name a, .atf, body.body-project #site div#site-main #content .primary-content h3, body.body-project-filedetails .details-panel h4, body.body-project #site div#site-main #content .primary-content h3.overflow-tip, .project-list .project-list-item .details .info.name a, div.cf-sidebar-header h3, body.body-project #site div#site-main #content .primary-content p.e-update-date, body.body-project #site div#site-main #content .primary-content .project-description h2, .project-relations .details .info.name div.name-wrapper a, .project-relations .details .info.name .byline a, body.body-project #site div#site-main #content .primary-content .details-panel h4 {
+    background-color: #1a1a1a !important;
+    color: #dbdbdb;
+}
+
+.e-header-nav .e-wrapper .e-menu>li.e-hasSubmenu ul li a {
+    background-color: #1a1a1a;
+    color: #dbdbdb;
+    border-color: #3a3a3a;
+}
+
+.content-container h4.project-listing-header-title a, .p-header-b .project-details-container .project-user h1 a, span.overflow-tip, .e-mobile-heading::before, .e-header-nav .e-wrapper .btn-group a.button span, .button.icon-follow.unfollow::before, .e-header-nav .e-wrapper .e-menu>li.e-selected>a, .e-header-nav .e-wrapper .e-menu>li>a, .content-container h2, body.body-project #site div#site-main #content .primary-content .p-comments h2, .project-file-download-button-large span {
+    color: #dbdbdb;
+}
+
+.atf, body.body-project-details .project-details-header.fixed, .project-relations .project-list-item, body.body-project-filedetails .details-panel h4 { 
+    border-bottom: 1px solid #3a3a3a !important;
+    background-color: #1a1a1a;
+    color: #dbdbdb;
+}
+
+.responsive-enabled.body-project-imagelisting ul.attachment-listing li.large>a, .responsive-enabled.body-project-imagelisting ul.attachment-listing li.large {
+    background-color: #1a1a1a;
+    border: 1px solid #3a3a3a;
+}
+
+.e-header-nav .e-wrapper {
+    border-top: 1px solid #3a3a3a;
+}
+
+.body-project-listing .project-listing-header, .body-project-listing .project-list .listing-body .project-list-item {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.cf-sidebar-wrapper::before {
+    border-left: 1px solid #3a3a3a;
+}
+
+.e-avatar64::after, .j-tooltip.e-avatar32::after, .e-avatar32.tip::after {
+    border-color: #3a3a3a;
+}
+
+.project-list-item .details .info.name .byline a, span.byline {
+    color: #c8c8c8;
+}
+
+.user-tag-large, .cf-sidebar-wrapper .cf-recentfiles .file-tag, div.p-comment-wrapper.comment-user-anonymous, .e-avatar32.tip, .avatar, .e-avatar64, .j-tooltip.e-avatar32, .level-categories.categories-tier, .no-results, section.level-categories.categories-tier, body.body-user.responsive-enabled .p-user-interaction .profile-nav-container nav, .scroll-container, -a .p-user-interaction .p-user-content, .p-user-a.s_myProfile .p-user-interaction .p-user-content, body.body-project-filedetails .details-panel .details-content .details-changelog .logbox, div.logbox, .p-user-interaction .p-user-content .listing-container.listing-container-ul .listing-body.group  div.details, .project-list-item .details .info.name a, .e-update-date, .p-user-a .listing .latest-post-item, .p-user-content div.name-wrapper {
+    color: #dbdbdb;
+    background-color:#282828 !important;
+    border-color: #3a3a3a;
+}
+
+.b-table-a tr:nth-child(odd) td, #site table.b-table-a:not(.forum-listing):not(.project-listing):not(.forum-thread-listing):not(.conversation-listing) tr:nth-child(odd) {
+    color: #dbdbdb;
+    background-color:#282828;
+}
+
+.b-table-a tr:nth-child(even) td, #site table.b-table-a:not(.forum-listing):not(.project-listing):not(.forum-thread-listing):not(.conversation-listing) tr:nth-child(even) {
+    color: #dbdbdb;
+    background-color: #3a3a3a;
+}
+
+#site div#site-main abbr {
+    color: #dbdbdb;
+}
+
+.button, .more-files-tag, .p-user-a .p-user-stats, .p-user-a.s_myProfile .p-user-stats, .b-userAction-a:not(.u-dropDownMenu):not(.user-actions-post):not(.user-actions-user-pm) .b-userAction-item>a, button[type="submit"], .b-search-a [type="submit"], .b-search-a input[type="search"], .p-header-a .searchform .b-search-a input[type="search"], .body-project-filelisting .listing-header .listing-filters-wrapper #filter-game-version, .p-user-a.s_myProfile .p-user-stats>li, body.body-user-projects .s_myProfile #filter-project-status, body.body-project-filedetails .details-panel .details-content .details-versions ul li {
+    color: #dbdbdb;
+    background-color: #282828;
+    background-image: none !important;
+    border-color: #3a3a3a;
+    box-shadow: none;
+}
+
+
+.body-project-listing .tier-holder .categories-tier.indent-0 li:not(.tier-holder) a {
+    color: #dbdbdb;
+}
+
+.b-pagination-a .b-pagination-list>.b-pagination-item>span.s-active {
+    background-color: #282828;
+    border-color: #282828;
+    color: #dbdbdb !important;
+}
+
+div.spoiler {
+    color: #dbdbdb;
+    background-color: #282828;
+    border-color: #282828
+}
+
+ #site table.b-table-a:not(.forum-listing):not(.project-listing):not(.forum-thread-listing):not(.conversation-listing) td, .project-file-listing .project-file-list-item .project-file-game-version .additional-versions {
+    border-color: #535353;
+    color: #dbdbdb !important;
+}
+
+span.p-comment-index.post-index {
+    background-color: #3a3a3a;
+}
+
+div.spoiler::before {
+    border-bottom-color: #282828;
+}
+
+div.p-comment-wrapper.comment-user-anonymous::before {
+    border-right-color: #282828;
+}
+
+.cf-sidebar-wrapper .cf-details.project-details li .truncate, .cf-sidebar-wrapper .sidebar-actions li.view-on-curse a, .cf-sidebar-wrapper .sidebar-actions li.report-project a, .user-tag-large .info-wrapper a span, .cf-sidebar-wrapper .cf-recentfiles .file-tag .cf-recentfiles-credits-wrapper a, .p-comments-a .p-comment-index a, .p-comments-a .p-comment-username a span, .p-comments-a .p-comment-post .p-comment-content a, .content-container a, .content-container a, .b-pagination-a .b-pagination-list>.b-pagination-item>a {
+    color: #fff !important;
+}
+
+
+hr {
+    height: 1px;
+    border-color: #3a3a3a !important;
+}
